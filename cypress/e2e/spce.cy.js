@@ -8,11 +8,9 @@ it('Testing The Login page' , () => {
     cy.get('.bg-custom-dark').click('')
 
     //****************Dashboard section*********************//
-
+    
     cy.get('.mb-auto > .flex-col > :nth-child(3) > .flex').click('')
     cy.get(':nth-child(1) > a > .group > .flex-col').click('')
-
-        //***********Course Screen***********//
-        
+    
     cy.get('.px-10').click('')
 });
